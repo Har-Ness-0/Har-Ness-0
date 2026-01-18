@@ -2,7 +2,6 @@
 ❧ Very fond of TECHNOLOGY(Even AI)<br/>
 ❧ Also very fond of CODING<br/>
 ❧ Web/Software Developer<br/>
-❧ Graphic Desginer(Blender and all)<br/>
 ❧ Web/Software design(UI/UX)
 
 
