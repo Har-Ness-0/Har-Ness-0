@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="55%" stop-color="#1E3A8A">
+        <animate attributeName="stop-color" values="#1E3A8A;#1D4ED8;#1E3A8A" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="300" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-300 0;1500 0" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="wave">
+      <path d="M0.0 232.0L25.0 234.7L50.0 237.2L75.0 239.6L100.0 241.6L125.0 243.4L150.0 244.7L175.0 245.6L200.0 246.0L225.0 246.1L250.0 245.7L275.0 245.0L300.0 244.0L325.0 242.8L350.0 241.5L375.0 240.1L400.0 238.8L425.0 237.5L450.0 236.3L475.0 235.2L500.0 234.4L525.0 233.6L550.0 233.0L575.0 232.5L600.0 232.0L625.0 231.5L650.0 231.0L675.0 230.4L700.0 229.6L725.0 228.8L750.0 227.7L775.0 226.5L800.0 225.2L825.0 223.9L850.0 222.5L875.0 221.2L900.0 220.0L925.0 219.0L950.0 218.3L975.0 217.9L1000.0 218.0L1025.0 218.4L1050.0 219.3L1075.0 220.6L1100.0 222.4L1125.0 224.4L1150.0 226.8L1175.0 229.3L1200.0 232.0L1225.0 234.7L1250.0 237.2L1275.0 239.6L1300.0 241.6L1325.0 243.4L1350.0 244.7L1375.0 245.6L1400.0 246.0L1425.0 246.1L1450.0 245.7L1475.0 245.0L1500.0 244.0L1525.0 242.8L1550.0 241.5L1575.0 240.1L1600.0 238.8L1625.0 237.5L1650.0 236.3L1675.0 235.2L1700.0 234.4L1725.0 233.6L1750.0 233.0L1775.0 232.5L1800.0 232.0L1825.0 231.5L1850.0 231.0L1875.0 230.4L1900.0 229.6L1925.0 228.8L1950.0 227.7L1975.0 226.5L2000.0 225.2L2025.0 223.9L2050.0 222.5L2075.0 221.2L2100.0 220.0L2125.0 219.0L2150.0 218.3L2175.0 217.9L2200.0 218.0L2225.0 218.4L2250.0 219.3L2275.0 220.6L2300.0 222.4L2325.0 224.4L2350.0 226.8L2375.0 229.3L2400.0 232.0L2400 0L0 0Z">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="16s" repeatCount="indefinite"/>
+      </path>
+    </clipPath>
+    <clipPath id="typed">
+      <rect x="300" y="156" width="600" height="36">
+        <animate attributeName="width" values="0.0;16.2;32.4;48.6;64.9;81.1;97.3;113.5;129.7;145.9;162.2;178.4;194.6;210.8;227.0;243.2;259.5;275.7;291.9;308.1;324.3;340.5;356.8;373.0;389.2;405.4;421.6;437.8;454.1;470.3;486.5;502.7;518.9;535.1;551.4;567.6;583.8;600.0" keyTimes="0.0000;0.0270;0.0541;0.0811;0.1081;0.1351;0.1622;0.1892;0.2162;0.2432;0.2703;0.2973;0.3243;0.3514;0.3784;0.4054;0.4324;0.4595;0.4865;0.5135;0.5405;0.5676;0.5946;0.6216;0.6486;0.6757;0.7027;0.7297;0.7568;0.7838;0.8108;0.8378;0.8649;0.8919;0.9189;0.9459;0.9730;1.0000" calcMode="discrete" dur="2.6s" begin="1.0s" fill="freeze"/>
+        <set attributeName="width" to="0" begin="0s" end="1.0s"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#wave)">
+    <rect width="1200" height="256" fill="url(#bg)"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="1">
+      <circle cx="1060" cy="250" r="20" stroke-opacity="0.000">
+        <animate attributeName="r" values="20;68" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.000;0.128" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="68" stroke-opacity="0.128">
+        <animate attributeName="r" values="68;116" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.128;0.117" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="116" stroke-opacity="0.117">
+        <animate attributeName="r" values="116;164" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.117;0.105" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="164" stroke-opacity="0.105">
+        <animate attributeName="r" values="164;212" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.105;0.093" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="212" stroke-opacity="0.093">
+        <animate attributeName="r" values="212;260" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.093;0.082" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="260" stroke-opacity="0.082">
+        <animate attributeName="r" values="260;308" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.082;0.070" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="308" stroke-opacity="0.070">
+        <animate attributeName="r" values="308;356" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.070;0.058" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="356" stroke-opacity="0.058">
+        <animate attributeName="r" values="356;404" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.058;0.047" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="404" stroke-opacity="0.047">
+        <animate attributeName="r" values="404;452" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.047;0.035" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="452" stroke-opacity="0.035">
+        <animate attributeName="r" values="452;500" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.035;0.023" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="500" stroke-opacity="0.023">
+        <animate attributeName="r" values="500;548" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.023;0.012" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="250" r="548" stroke-opacity="0.012">
+        <animate attributeName="r" values="548;596" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.012;0.000" dur="7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  <path d="M0.0 232.0L25.0 234.7L50.0 237.2L75.0 239.6L100.0 241.6L125.0 243.4L150.0 244.7L175.0 245.6L200.0 246.0L225.0 246.1L250.0 245.7L275.0 245.0L300.0 244.0L325.0 242.8L350.0 241.5L375.0 240.1L400.0 238.8L425.0 237.5L450.0 236.3L475.0 235.2L500.0 234.4L525.0 233.6L550.0 233.0L575.0 232.5L600.0 232.0L625.0 231.5L650.0 231.0L675.0 230.4L700.0 229.6L725.0 228.8L750.0 227.7L775.0 226.5L800.0 225.2L825.0 223.9L850.0 222.5L875.0 221.2L900.0 220.0L925.0 219.0L950.0 218.3L975.0 217.9L1000.0 218.0L1025.0 218.4L1050.0 219.3L1075.0 220.6L1100.0 222.4L1125.0 224.4L1150.0 226.8L1175.0 229.3L1200.0 232.0L1225.0 234.7L1250.0 237.2L1275.0 239.6L1300.0 241.6L1325.0 243.4L1350.0 244.7L1375.0 245.6L1400.0 246.0L1425.0 246.1L1450.0 245.7L1475.0 245.0L1500.0 244.0L1525.0 242.8L1550.0 241.5L1575.0 240.1L1600.0 238.8L1625.0 237.5L1650.0 236.3L1675.0 235.2L1700.0 234.4L1725.0 233.6L1750.0 233.0L1775.0 232.5L1800.0 232.0L1825.0 231.5L1850.0 231.0L1875.0 230.4L1900.0 229.6L1925.0 228.8L1950.0 227.7L1975.0 226.5L2000.0 225.2L2025.0 223.9L2050.0 222.5L2075.0 221.2L2100.0 220.0L2125.0 219.0L2150.0 218.3L2175.0 217.9L2200.0 218.0L2225.0 218.4L2250.0 219.3L2275.0 220.6L2300.0 222.4L2325.0 224.4L2350.0 226.8L2375.0 229.3L2400.0 232.0" fill="none" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="2">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-1200 0" dur="16s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle">
+    <text x="600" y="128" font-size="60" font-weight="700" letter-spacing="1" fill="url(#shine)" opacity="1">Girish Sharma
+      <animate attributeName="opacity" values="0;1" dur="0.9s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="0 14;0 0" dur="0.9s" fill="freeze"/>
+    </text>
+  </g>
+  <text x="300" y="182" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="22" font-weight="500" fill="#BAE6FD" textLength="600" lengthAdjust="spacingAndGlyphs" clip-path="url(#typed)">Full-Stack Developer &#183; AI Integration</text>
+  <rect x="903" y="162" width="2.5" height="24" fill="#7DD3FC">
+    <animate attributeName="x" values="303.0;319.2;335.4;351.6;367.9;384.1;400.3;416.5;432.7;448.9;465.2;481.4;497.6;513.8;530.0;546.2;562.5;578.7;594.9;611.1;627.3;643.5;659.8;676.0;692.2;708.4;724.6;740.8;757.1;773.3;789.5;805.7;821.9;838.1;854.4;870.6;886.8;903.0" keyTimes="0.0000;0.0270;0.0541;0.0811;0.1081;0.1351;0.1622;0.1892;0.2162;0.2432;0.2703;0.2973;0.3243;0.3514;0.3784;0.4054;0.4324;0.4595;0.4865;0.5135;0.5405;0.5676;0.5946;0.6216;0.6486;0.6757;0.7027;0.7297;0.7568;0.7838;0.8108;0.8378;0.8649;0.8919;0.9189;0.9459;0.9730;1.0000" calcMode="discrete" dur="2.6s" begin="1.0s" fill="freeze"/>
+    <set attributeName="x" to="303" begin="0s" end="1.0s"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
