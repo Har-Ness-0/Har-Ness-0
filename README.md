@@ -123,18 +123,9 @@ An ESP32 robot controlled by a neural network running in the cloud. Sensor data 
 
 ## GitHub Analytics
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.shion.dev/api?username=Har-Ness-0&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&ring_color=58A6FF" alt="GitHub stats" />
-  <img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Har-Ness-0&layout=compact&langs_count=8&card_width=467&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" alt="Top languages" />
-</p>
+<p align="center"><img width="48%" src="https://github-readme-stats.shion.dev/api?username=Har-Ness-0&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&card_width=467&bg_color=00000000&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&ring_color=58A6FF" alt="GitHub stats" /><img width="48%" src="https://streak-stats.demolab.com/?user=Har-Ness-0&card_width=467&card_height=195&hide_border=true&background=00000000&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="GitHub streak" /></p>
 
-<p align="center">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=Har-Ness-0&hide_border=true&background=00000000&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Har-Ness-0&custom_title=Contribution%20Activity&bg_color=00000000&title_color=58A6FF&color=8B949E&line=58A6FF&point=1E3A8A&area=true&area_color=58A6FF&hide_border=true" alt="Contribution activity graph" />
-</p>
+<p align="center"><img width="96%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Har-Ness-0&layout=compact&langs_count=8&card_width=934&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" alt="Top languages" /></p>
 
 <!-- ============================== FOOTER ============================== -->
 <p align="center">
