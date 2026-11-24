@@ -1,4 +1,4 @@
-<!-- ============================== HEADER ============================== -->
+<!-- ============================= HEADER ============================== -->
 <p align="center">
   <img src="./assets/header.svg" width="100%" alt="Girish Sharma — Full-Stack Developer, AI Integration" />
 </p>
